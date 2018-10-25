@@ -101,10 +101,8 @@ var ranpic2:Int=Int(arc4random_uniform(UInt32(words.count)))
     topbutton.setTitle(words[ranpic2], for: .normal)}
     
         }
-        
     }
     
-  
     
 @IBAction func top(_ sender: UIButton) {
 
