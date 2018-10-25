@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FDA2131521811F74007FE86D /* Maltese Vocubulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maltese Vocubulary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA2131521811F74007FE86D /* Maltese Vocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maltese Vocabulary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA2131821811F74007FE86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDA2131A21811F74007FE86D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDA2131D21811F74007FE86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		FDA2131621811F74007FE86D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDA2131521811F74007FE86D /* Maltese Vocubulary.app */,
+				FDA2131521811F74007FE86D /* Maltese Vocabulary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDA2131421811F74007FE86D /* Maltese Vocubulary */ = {
+		FDA2131421811F74007FE86D /* Maltese Vocabulary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDA2132721811F77007FE86D /* Build configuration list for PBXNativeTarget "Maltese Vocubulary" */;
+			buildConfigurationList = FDA2132721811F77007FE86D /* Build configuration list for PBXNativeTarget "Maltese Vocabulary" */;
 			buildPhases = (
 				FDA2131121811F74007FE86D /* Sources */,
 				FDA2131221811F74007FE86D /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Maltese Vocubulary";
+			name = "Maltese Vocabulary";
 			productName = "Maltese Vocubulary";
-			productReference = FDA2131521811F74007FE86D /* Maltese Vocubulary.app */;
+			productReference = FDA2131521811F74007FE86D /* Maltese Vocabulary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FDA2131021811F74007FE86D /* Build configuration list for PBXProject "Maltese Vocubulary" */;
+			buildConfigurationList = FDA2131021811F74007FE86D /* Build configuration list for PBXProject "Maltese Vocabulary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDA2131421811F74007FE86D /* Maltese Vocubulary */,
+				FDA2131421811F74007FE86D /* Maltese Vocabulary */,
 			);
 		};
 /* End PBXProject section */
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDA2131021811F74007FE86D /* Build configuration list for PBXProject "Maltese Vocubulary" */ = {
+		FDA2131021811F74007FE86D /* Build configuration list for PBXProject "Maltese Vocabulary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDA2132521811F77007FE86D /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDA2132721811F77007FE86D /* Build configuration list for PBXNativeTarget "Maltese Vocubulary" */ = {
+		FDA2132721811F77007FE86D /* Build configuration list for PBXNativeTarget "Maltese Vocabulary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDA2132821811F77007FE86D /* Debug */,
