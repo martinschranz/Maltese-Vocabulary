@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD346522218240BE000E681D /* general_functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD346521218240BE000E681D /* general_functions.swift */; };
 		FDA2131921811F74007FE86D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA2131821811F74007FE86D /* AppDelegate.swift */; };
 		FDA2131B21811F74007FE86D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA2131A21811F74007FE86D /* ViewController.swift */; };
 		FDA2131E21811F74007FE86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA2131C21811F74007FE86D /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD346521218240BE000E681D /* general_functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = general_functions.swift; sourceTree = "<group>"; };
 		FDA2131521811F74007FE86D /* Maltese Vocubulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maltese Vocubulary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA2131821811F74007FE86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDA2131A21811F74007FE86D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				FDA2131821811F74007FE86D /* AppDelegate.swift */,
 				FDA2131A21811F74007FE86D /* ViewController.swift */,
+				FD346521218240BE000E681D /* general_functions.swift */,
 				FDA2131C21811F74007FE86D /* Main.storyboard */,
 				FDA2131F21811F77007FE86D /* Assets.xcassets */,
 				FDA2132121811F77007FE86D /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				FDA2131B21811F74007FE86D /* ViewController.swift in Sources */,
 				FDA2131921811F74007FE86D /* AppDelegate.swift in Sources */,
+				FD346522218240BE000E681D /* general_functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
