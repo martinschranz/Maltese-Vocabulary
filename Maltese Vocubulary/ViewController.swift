@@ -41,7 +41,7 @@ myarrays.loosescore=0
 myarrays.score=0
 if myarrays.level==4{self.toptitle.text="Level 1"}
 else{self.toptitle.text="Level \(myarrays.level)"}
-DispatchQueue.main.asyncAfter(deadline: .now()+1){self.changepicture()}} else {correct.text="You got (myarrays.loosescore) wrong. Try again !"
+DispatchQueue.main.asyncAfter(deadline: .now()+1){self.changepicture()}} else {correct.text="You got \(myarrays.loosescore) wrong. Try again !"
 myarrays.loosescore=0
 myarrays.score=0
 myarrays.b3=3
