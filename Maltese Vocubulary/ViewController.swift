@@ -9,18 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var beet=1
+    var b3=0
+    var score=0
+    var loosescore=0
+    var level = 1
+    var nos=2
+    
+    @IBAction func slide(_ sender: UISlider) {
+ var nose=Int(sender.value)
+ self.nos=nose
+  print(self.nos)
+    }
+    
     
     @IBOutlet weak var toptitle: UITextField!
     @IBOutlet weak var dog: UIButton!
     @IBOutlet weak var topbutton: UIButton!
     @IBOutlet weak var bottombutton: UIButton!
     @IBOutlet weak var correct: UITextField!
-    var beet=1
-    var b3=0
-    var score=0
-    var loosescore=0
-    var level = 1
+   
+    @IBOutlet weak var easy: UILabel!
+    @IBOutlet weak var slideme: UISlider!
     
+    @IBOutlet weak var hard: UILabel!
     
  @IBAction func doggy(_ sender: UIButton) {
     
@@ -37,8 +49,18 @@ changepicture(); super.viewDidLoad()
 func changepicture() {
 topbutton.isUserInteractionEnabled=true
 bottombutton.isUserInteractionEnabled=true
-        if (self.score==0&&self.loosescore==0&&self.level==1&&self.b3<1)
+if (self.score==0&&self.loosescore==0&&self.level==1&&self.b3<1)
    {correct.text=""}
+if (self.score==0&&self.loosescore==0)
+    {slideme.isHidden=false
+        easy.isHidden=false
+        hard.isHidden=false
+}
+    else
+        {slideme.isHidden=true
+            easy.isHidden=true
+            hard.isHidden=true
+    }
  var pictures=["🐝","🚕","⛵️","⚽️","✈️","⚓️","🗽","⛺️","🔨","🎈","🛁","💊","🎀","🛎","🛏","☁️","🏍","🚲","🕯","🎁","💣","🚪","✉️","📙","🎧","🍺","🐑","🧢","👓"]
         
 if level==2 {pictures=["🚰","✂️","🐌","🍓","🥁","⚓️","🔌","🔨","🛁","🔑","🛏","🐀","🍐","🔦","🚧","🛢","🗡","🎯","🌽","🐊","🍄","🌈","🍑","🐙","😡","😭","☺️","👅","🧠"]}
@@ -131,16 +153,27 @@ self.score=score+1
 print("loosescore : ",loosescore)
 print("score : ",score)
 print("loosescore+score : ",self.loosescore+self.score)
-if (loosescore+score)>2
+if (loosescore+score)>self.nos
 {
 if (loosescore<1){
 self.level=level+1
-correct.text="Perfect score! Start level \(self.level)"
-            self.loosescore=0
-            self.score=0
-            
-            self.toptitle.text="Level \(self.level)"
-            self.changepicture()
+if self.level==4
+{correct.text="Champion! 🏆 Start again"
+    self.level=1
+}
+    else
+{correct.text="Perfect score! Start level \(self.level)"}
+    
+    self.loosescore=0
+     self.score=0
+    
+    if self.level==4
+    {self.toptitle.text="Level 1"}
+    else
+    {self.toptitle.text="Level \(self.level)"}
+    
+    
+  self.changepicture()
         } else {correct.text="You got \(self.loosescore) wrong. Try again !"
             self.loosescore=0
             self.score=0
@@ -159,7 +192,7 @@ correct.text="Perfect score! Start level \(self.level)"
     func punishme()
     {correct.text?.append("❌")
         self.loosescore=loosescore+1
-        if (loosescore>0)&&((loosescore+self.score)>2){correct.text="You got \(self.loosescore) wrong. Try again!"
+        if (loosescore>0)&&((loosescore+self.score)>self.nos){correct.text="You got \(self.loosescore) wrong. Try again!"
             self.loosescore=0
             self.score=0
             self.b3=3
