@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var topbutton: UIButton!
     @IBOutlet weak var bottombutton: UIButton!
     @IBOutlet weak var correct: UITextField!
-    
     var beet=1
     var b3=0
     var score=0
