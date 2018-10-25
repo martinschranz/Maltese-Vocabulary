@@ -49,6 +49,9 @@ changepicture(); super.viewDidLoad()
 func changepicture() {
 topbutton.isUserInteractionEnabled=true
 bottombutton.isUserInteractionEnabled=true
+
+topbutton.setTitleColor(UIColor.yellow, for: .normal)
+bottombutton.setTitleColor(UIColor.yellow,for: .normal)
 if (self.score==0&&self.loosescore==0&&self.level==1&&self.b3<1)
    {correct.text=""}
 if (self.score==0&&self.loosescore==0)
@@ -149,10 +152,13 @@ if self.b3==1
     
 func congratulateme()
 {correct.text?.append("✅")
-self.score=score+1
-print("loosescore : ",loosescore)
-print("score : ",score)
-print("loosescore+score : ",self.loosescore+self.score)
+    
+if self.b3==0
+{topbutton.setTitleColor(UIColor.green, for: .normal)}
+    else
+{bottombutton.setTitleColor(UIColor.green,for: .normal)}
+    
+    self.score=score+1
 if (loosescore+score)>self.nos
 {
 if (loosescore<1){
@@ -191,7 +197,13 @@ if self.level==4
     
     func punishme()
     {correct.text?.append("❌")
-        self.loosescore=loosescore+1
+          self.loosescore=loosescore+1
+        if self.b3==1
+            
+        {topbutton.setTitleColor(UIColor.red, for: .normal)}
+ else
+{bottombutton.setTitleColor(UIColor.red,for: .normal)}
+      
         if (loosescore>0)&&((loosescore+self.score)>self.nos){correct.text="You got \(self.loosescore) wrong. Try again!"
             self.loosescore=0
             self.score=0
