@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Maltese Vocubulary/ViewController.swift"
+            timestampString = "562263961.4881361"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Maltese Vocubulary/ViewController.swift"
+            timestampString = "562263961.4891731"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Maltese Vocubulary/ViewController.swift"
+            timestampString = "562263961.4899729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Maltese_Vocubulary.ViewController.topbutton.getter : weak Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Maltese Vocubulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinschranz/Desktop/Maltese%20Vocubulary/Maltese%20Vocubulary/ViewController.swift"
+                  timestampString = "562163249.659657"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Maltese_Vocubulary.ViewController.topbutton.setter : weak Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Maltese Vocubulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinschranz/Desktop/Maltese%20Vocubulary/Maltese%20Vocubulary/ViewController.swift"
+                  timestampString = "562163249.661361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Maltese_Vocubulary.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Maltese_Vocubulary.ViewController"
+                  moduleName = "Maltese Vocubulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinschranz/Desktop/Maltese%20Vocubulary/Maltese%20Vocubulary/ViewController.swift"
+                  timestampString = "562163249.663005"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Maltese_Vocubulary.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Maltese_Vocubulary.ViewController&gt;"
+                  moduleName = "Maltese Vocubulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinschranz/Desktop/Maltese%20Vocubulary/Maltese%20Vocubulary/ViewController.swift"
+                  timestampString = "562163249.66468"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Maltese Vocubulary/ViewController.swift"
+            timestampString = "562263961.4907809"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Maltese_Vocubulary.ViewController.toptitle.getter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Maltese Vocubulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinschranz/Desktop/Maltese%20Vocubulary/Maltese%20Vocubulary/ViewController.swift"
+                  timestampString = "562163276.2585829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Maltese_Vocubulary.ViewController.toptitle.setter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Maltese Vocubulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinschranz/Desktop/Maltese%20Vocubulary/Maltese%20Vocubulary/ViewController.swift"
+                  timestampString = "562163276.2606961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Maltese_Vocubulary.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Maltese_Vocubulary.ViewController"
+                  moduleName = "Maltese Vocubulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinschranz/Desktop/Maltese%20Vocubulary/Maltese%20Vocubulary/ViewController.swift"
+                  timestampString = "562163276.263044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "579">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Maltese_Vocubulary.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Maltese_Vocubulary.ViewController&gt;"
+                  moduleName = "Maltese Vocubulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinschranz/Desktop/Maltese%20Vocubulary/Maltese%20Vocubulary/ViewController.swift"
+                  timestampString = "562163276.265148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "543">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Maltese Vocubulary/ViewController.swift"
+            timestampString = "562263961.4915791"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
